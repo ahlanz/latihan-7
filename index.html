@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Saya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tambahkan Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-blue-500 p-4">
+      <div class="container mx-auto">
+        <a href="#" class="text-white text-2xl font-semibold"
+          >Portofolio Saya</a
+        >
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-blue-400 p-10 text-center text-white">
+      <div class="container mx-auto">
+        <h1 class="text-4xl font-semibold">Halo, Saya [Nama kamu]</h1>
+        <p class="text-xl mt-4">
+          Saya seorang [Pekerjaan kamu] dengan minat dalam [Bidang kamu].
+        </p>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <section class="py-10">
+      <div
+        class="container mx-auto flex flex-col md:flex-row items-center md:items-start"
+      >
+        <div class="md:w-1/2 pr-4">
+          <img
+            src="profile.jpeg"
+            alt="Foto Profil"
+            class="w-full rounded-lg shadow-md"
+          />
+        </div>
+        <div class="md:w-1/2">
+          <h2 class="text-2xl font-semibold mb-4">Tentang Saya</h2>
+          <p class="text-lg">
+            Saya adalah seorang profesional di bidang [Bidang kamu]. Saya
+            memiliki pengalaman selama [jumlah tahun] tahun dalam industri ini.
+            Saya suka bekerja dengan teknologi terbaru dan menciptakan solusi
+            inovatif untuk [tujuan kamu].
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section class="py-10">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-semibold text-center mb-8">Portofolio Saya</h2>
+        <!-- Daftar Proyek Portofolio -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Proyek 1 -->
+          <div class="bg-white p-6 rounded shadow-md">
+            <img src="project.jpeg" alt="Proyek 1" class="mb-4" />
+            <h3 class="text-xl font-semibold">Proyek 1</h3>
+            <p class="mt-2">Deskripsi proyek 1.</p>
+          </div>
+          <!-- Proyek 2 -->
+          <div class="bg-white p-6 rounded shadow-md">
+            <img src="project.jpeg" alt="Proyek 2" class="mb-4" />
+            <h3 class="text-xl font-semibold">Proyek 2</h3>
+            <p class="mt-2">Deskripsi proyek 2.</p>
+          </div>
+          <!-- Proyek 3 -->
+          <div class="bg-white p-6 rounded shadow-md">
+            <img src="project.jpeg" alt="Proyek 3" class="mb-4" />
+            <h3 class="text-xl font-semibold">Proyek 3</h3>
+            <p class="mt-2">Deskripsi proyek 3.</p>
+          </div>
+          <!-- Lanjutkan menambahkan proyek lainnya sesuai kebutuhan -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Quotes -->
+    <section class="bg-gray-200 py-10">
+      <div class="container mx-auto text-center">
+        <h2 class="text-2xl font-semibold">Kutipan Motivasi</h2>
+        <p class="text-lg mt-4">
+          "Ketika kamu berhenti belajar, kamu berhenti berkembang." - alex
+        </p>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="bg-blue-500 py-16 text-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-2xl font-semibold">Hubungi Saya</h2>
+        <p class="text-lg mt-4">
+          Saya senang berbicara dengan kamu tentang proyek atau peluang lainnya.
+          Silakan hubungi saya.
+        </p>
+        <a
+          href="#"
+          class="bg-white text-blue-500 px-6 py-3 rounded-full mt-6 inline-block hover:bg-blue-600 hover:text-white"
+          >Email Saya</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 py-4 text-white">
+      <div class="container mx-auto text-center">
+        &copy; 2023 Portofolio Saya. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
